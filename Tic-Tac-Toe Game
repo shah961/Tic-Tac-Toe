@@ -1,0 +1,78 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://tic-tac-toe-game-shah961s-projects.vercel.app/
+Subject: Tic-Tac-Toe Game
+Date: Sun, 26 Oct 2025 08:20:41 +0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--tEawrDePDz3cfBpD4NrrPW0wjLEhi5XAriRok4Tja4----"
+
+
+------MultipartBoundary--tEawrDePDz3cfBpD4NrrPW0wjLEhi5XAriRok4Tja4----
+Content-Type: text/html
+Content-ID: <frame-84CC0A08D8E7C723A3AD42745321A238@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://tic-tac-toe-game-shah961s-projects.vercel.app/
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-dfe6a09b-47d1-48f5-8b2b-7142046739ef@mhtml.blink" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe Game</title>
+  
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="winner">
+        <h1 class="win"></h1>
+        <button class="newGame">New Game</button>
+      </div>
+
+      <h1>Tic Tac Toe</h1>
+
+      <div class="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+      </div>
+
+      <button class="reset">Reset Game</button>
+    </div>
+  </main>
+
+  
+
+
+</body></html>
+------MultipartBoundary--tEawrDePDz3cfBpD4NrrPW0wjLEhi5XAriRok4Tja4----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-dfe6a09b-47d1-48f5-8b2b-7142046739ef@mhtml.blink
+
+@charset "utf-8";
+
+* { padding: 0px; margin: 0px; box-sizing: border-box; }
+
+body { background-color: aqua; text-align: center; font-family: Arial, sans-serif; }
+
+.container { height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column; }
+
+.game { height: 60vmin; width: 60vmin; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1.5vmin; }
+
+.box { height: 18vmin; width: 18vmin; border-radius: 1rem; border: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 1rem; font-size: 14vmin; color: red; background: white; }
+
+box:hover { }
+
+.reset, .newGame { padding: 1rem; font-size: 1.25rem; border: none; border-radius: 1rem; background-color: black; cursor: pointer; color: white; margin-top: 1rem; box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 1rem; }
+
+.winner { display: none; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; margin-bottom: 1rem; }
+
+.win { font-size: 2rem; color: darkred; }
+------MultipartBoundary--tEawrDePDz3cfBpD4NrrPW0wjLEhi5XAriRok4Tja4------
